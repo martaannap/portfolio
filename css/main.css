@@ -1,0 +1,80 @@
+html {
+  font-family: 'Muli', sans-serif;
+}
+
+.banner {
+  text-align: center;
+}
+
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-content {
+  border-top: solid 1px #163056;
+}
+
+
+.content h2 {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+
+
+
+.message {
+position: absolute;
+top: -250px;
+transition: top 300ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
+overflow: hidden;
+
+}
+
+
+#toggle {
+  position:absolute;
+  appearance:none;
+  cursor:pointer;
+  left:-100%;
+  top:-100%;
+}
+
+#toggle + label {
+  position:absolute;
+  cursor:pointer;
+width: 100px;
+line-height:20px;
+font-size:12px;
+text-align:center;
+-webkit-font-smoothing: antialiased;
+cursor: pointer;
+
+  transition:all 500ms ease;
+}
+
+#toggle + label:after {
+  content:"about"
+}
+
+.container {
+transition: margin 300ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
+  padding:2em 3em;
+}
+
+#toggle:checked ~ .message {
+  top: 450px;
+}
+
+#toggle:checked ~ .container {
+  margin-top: 250px;
+}
+
+
+#toggle:checked + label:after {
+  content:"close"
+}
