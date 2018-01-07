@@ -1,9 +1,12 @@
 html {
   font-family: 'Muli', sans-serif;
+  
 }
+
 
 .banner {
   text-align: center;
+
 }
 
 
@@ -59,7 +62,7 @@ overflow: hidden;
 }
 
 #toggle + label:after {
-  content:"about"
+  content:"about ▼"
 }
 
 .container {
@@ -78,7 +81,7 @@ transition: margin 300ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
 
 
 #toggle:checked + label:after {
-  content:"close"
+  content:"close ▲"
 }
 
 .info-card {
