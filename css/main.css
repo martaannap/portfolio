@@ -159,13 +159,6 @@ li {
   margin:auto;
 }
 
-.html-404 {
-  background-image: url("../images/triangle.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center bottom;
-  min-height: 80vh;
-}
 
 
 
