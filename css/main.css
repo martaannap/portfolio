@@ -9,7 +9,10 @@ html {
 
 }
 
+p {
+  color: black;
 
+}
 header a {
   text-decoration: none;
   color: black;
