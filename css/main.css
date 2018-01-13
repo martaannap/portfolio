@@ -59,6 +59,11 @@ overflow: hidden;
   color: #d8cbcb;
 }
 
+.social {
+  color: black;
+  
+}
+
 #toggle + label {
   cursor:pointer;
   width: 100px;
@@ -164,10 +169,6 @@ li {
     list-style-type: none;
 }
 
-/* .social {
-  width: 33.33%;
-  margin:auto;
-} */
 
 .btn:hover {
     color: #d8cbcb;
