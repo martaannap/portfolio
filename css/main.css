@@ -61,7 +61,11 @@ overflow: hidden;
   -webkit-font-smoothing: antialiased;
   cursor: pointer;
 
-  transition:all 500ms ease;
+  transition:all 200ms ease;
+}
+
+#toggle + label:hover {
+  color: pink;
 }
 
 #toggle + label:after {
