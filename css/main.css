@@ -169,6 +169,9 @@ li {
   margin:auto;
 } */
 
+.btn:hover {
+    color: #d8cbcb;
+  }
 
 
 
