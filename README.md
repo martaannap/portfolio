@@ -10,3 +10,4 @@ With love for every step of the process I translate human experiences and storie
  - [Behance](https://www.behance.net/martaannap)
  - [Vimeo](https://vimeo.com/martaannap)
  - [Instagram](https://www.instagram.com/martaannap/)
+ - [Linkedin](https://www.linkedin.com/in/marta-anna-pietryga/)
