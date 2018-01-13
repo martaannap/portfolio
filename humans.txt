@@ -1,0 +1,21 @@
+# humanstxt.org
+
+#TEAM
+
+Designer & Developper: Marta Anna Pietryga <design@martaannap.com>
+Site: http://martaannap.com
+Location: Ottawa, Canada
+
+---
+
+# TECHNOLOGY
+
+## Software
+
+- Git + GitHub
+- Markdown
+- Atom
+
+## Hosting
+
+- Hover <http://hover.com>
