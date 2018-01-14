@@ -61,7 +61,7 @@ overflow: hidden;
 
 .social {
   color: black;
-  
+
 }
 
 #toggle + label {
@@ -169,6 +169,9 @@ li {
     list-style-type: none;
 }
 
+.btn {
+  color: black;
+}
 
 .btn:hover {
     color: #d8cbcb;
