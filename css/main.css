@@ -3,7 +3,6 @@ html {
 
 }
 
-
 .banner {
   text-align: center;
 
@@ -13,28 +12,30 @@ p {
   color: black;
 
 }
+
 header a {
   text-decoration: none;
   color: black;
 }
 
 .footer-content {
-  border-top: solid 1px #d8cbcb;
+  border-top: solid 1px #ef3f40;
 }
-
 
 .content h2 {
   text-decoration: none;
   color: black;
 }
 
+
 .about {
-  border-bottom: solid 1px #d8cbcb;
+  border-bottom: solid 1px #ef3f40;
 }
 
 
 h1 {
   color: black;
+  border-bottom: solid 1px #ef3f40;
 }
 
 
@@ -56,11 +57,11 @@ overflow: hidden;
 }
 
 .social:hover {
-  color: #d8cbcb;
+  color: black;
 }
 
 .social {
-  color: black;
+  color: #ef3f40;
 
 }
 
@@ -75,7 +76,7 @@ overflow: hidden;
 }
 
 #toggle + label:hover {
-  color: #d8cbcb;
+  color: #ef3f40;
 }
 
 #toggle + label:after {
@@ -126,13 +127,14 @@ transition: margin 300ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
 
 }
 
+
 .full-line {
   width: 0%;
   height: 1px;
   display: block;
-  background: black;
+  background: #ef3f40;
   bottom: 20px;
-  color: #d8cbcb;
+  color: #ef3f40;
 }
 
 .info span {
@@ -169,15 +171,32 @@ li {
     list-style-type: none;
 }
 
+
 .btn {
   color: black;
 }
 
 .btn:hover {
-    color: #d8cbcb;
+    color: #ef3f40;
   }
 
+.embed-video {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
 
+.embed-video iframe,
+.embed-video object,
+.embed-video embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
 @media only screen and (min-width: 38em) {
 
