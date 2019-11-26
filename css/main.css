@@ -1,6 +1,12 @@
 html {
-  font-family: 'Muli', sans-serif;
+  font-family: ltc-caslon-pro, serif;
+  color: #1d1d1d;
 
+}
+
+h2 {
+  font-family: gill-sans-nova, sans-serif;
+  color: #1d1d1d;
 }
 
 .banner {
@@ -9,7 +15,9 @@ html {
 }
 
 p {
-  color: black;
+  color: #1d1d1d;
+
+
 
 }
 
@@ -19,7 +27,7 @@ header a {
 }
 
 .footer-content {
-  border-top: solid 2px #f7f7f7;
+  border-top: solid 1px #0000;
 }
 
 .content h2 {
@@ -29,8 +37,9 @@ header a {
 
 
 
+
 h1 {
-  color: black;
+  color: #1d1d1d;
   border-bottom: solid 1px #ef3f40;
 }
 
